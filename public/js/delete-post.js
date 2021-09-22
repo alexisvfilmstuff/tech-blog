@@ -1,7 +1,7 @@
 async function delButtonHandler(event) {
   event.preventDefault();
 
-  // get post and id from the url // 
+// get post and id from the url // 
   const id = window.location.toString().split('/')[
     window.location.toString().split('/').length - 1
   ];
