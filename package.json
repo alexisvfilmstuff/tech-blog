@@ -9,5 +9,23 @@
     "jest": "^27.2.1",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "tech-blog",
+  "description": "",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexisvfilmstuff/tech-blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexisvfilmstuff/tech-blog/issues"
+  },
+  "homepage": "https://github.com/alexisvfilmstuff/tech-blog#readme"
 }
