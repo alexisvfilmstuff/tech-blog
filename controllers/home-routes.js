@@ -41,7 +41,7 @@ router.get('/', async (req, res) => {
     }),
 
     // array for post // 
-    const posts = postData.map((post)) => post.get({ plain: true}));
+    const posts = postData.map(post) => post.get({ plain: true}));
     
     // post pass through homepage template // 
     res.render('homepage', {
