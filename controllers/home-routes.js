@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { post } = require('.');
+//const { post } = require('.');
 const { Post, User, Comment } = require('../models');
 
 // home page sync and render // 
